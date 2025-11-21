@@ -3,47 +3,93 @@
 # REPO: https://github.com/cy-i/
 # UPDATED: 2025-11-20 21:20:00
 payload:
-  - DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
-  - DOMAIN-SUFFIX,generativeai.google
+# >> Gemini
+  - DOMAIN,ai.google.dev
+  - DOMAIN,aisandbox-pa.googleapis.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN,aida.googleapis.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN,makersuite.google.com
   - DOMAIN,antigravity.google
   - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
-  - DOMAIN-SUFFIX,gemini.google
-  - DOMAIN,ai.google.dev
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN,robinfrontend-pa.googleapis.com
   - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
-  - DOMAIN,aisandbox-pa.googleapis.com
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
-  - DOMAIN,aida.googleapis.com
   - DOMAIN,gateway.ai.cloudflare.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,deepmind.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,notebooklm.google.com
-  - DOMAIN-SUFFIX,makersuite.google.com
-  - DOMAIN,alkalicore-pa.clients6.google.com
-  - DOMAIN-SUFFIX,aistudio.google.com
-  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN,jules.google.com
-  - DOMAIN-SUFFIX,bard.google.com
-  - DOMAIN,api.github.com
-  - DOMAIN-SUFFIX,sora.com
-  - DOMAIN-SUFFIX,groq.com
-  - DOMAIN-SUFFIX,grok.com
-  - DOMAIN-SUFFIX,chat.com
-  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-KEYWORD,colab
+  - DOMAIN-KEYWORD,developerprofiles
+  - DOMAIN-KEYWORD,generativelanguage
+
+# >> OpenAI chatgpt
+  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,openai-api.arkoselabs.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,static.cloudflareinsights.com
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,algolia.net
+  - DOMAIN-SUFFIX,api.statsig.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,host.livekit.cloud
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,observeit.net
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,openaicom.imgix.net
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,turn.livekit.cloud
+  - DOMAIN-KEYWORD,openai
+  - IP-CIDR,24.199.123.28/32
+  - IP-CIDR,64.23.132.171/32
+  - IP-ASN,20473
+
+# >> Claude
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,usefathom.com
+  - DOMAIN-KEYWORD,claude
+
+# >> Grok
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-KEYWORD,grok
+
+# >> Other AI
+  - DOMAIN,api.github.com
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,clipdrop.co
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN,api.jetbrains.ai
   - DOMAIN-SUFFIX,openart.ai
   - DOMAIN-SUFFIX,jasper.ai
-  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,dify.ai
-  - DOMAIN-SUFFIX,x.ai
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,recraft.ai
+  - DOMAIN-KEYWORD,copilot
